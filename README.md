@@ -1,6 +1,7 @@
-[![python >3.8.8](https://img.shields.io/badge/python-3.8.8-brightgreen)](https://www.python.org/) 
-[![Downloads](https://static.pepy.tech/badge/spatialid)](https://pepy.tech/project/spatialid)
-[![Documentation Status](https://readthedocs.org/projects/spatialid/badge/?version=latest)](https://spatialid.readthedocs.io/en/latest/?badge=latest)
+
+**This is a modern fork with updated versions of Python and related dependencies, and uses uv.**
+
+
 #  Implementation of cell annotation method: Spatial-ID
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7340795.svg)](https://doi.org/10.5281/zenodo.7340795)           
 
@@ -11,7 +12,7 @@ The architecture was inspired by [Spatial-ID](https://doi.org/10.1038/s41467-022
        
 ### Installation      
 ```python
-pip install SpatialID
+pip install git+https://github.com/myuanz/SpatialID.git
 ```
         
 ### API        
